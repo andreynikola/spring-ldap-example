@@ -1,5 +1,3 @@
-package paysys.console.utils;
-
 import lombok.extern.slf4j.Slf4j;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,10 +8,6 @@ import org.springframework.ldap.filter.EqualsFilter;
 import org.springframework.ldap.filter.Filter;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
-import paysys.console.admin.AuthException;
-import paysys.persist.Config;
-import paysys.persist.dao.AccountRepository;
-import paysys.persist.domain.Account;
 
 import javax.annotation.PostConstruct;
 import javax.naming.NamingException;
